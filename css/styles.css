@@ -76,24 +76,53 @@
     padding: 100%0;
     position: relative;
   }*/
-
-  
-  .home h1{
-   padding: 0px;
-   text-align: center;
-   width: auto;
-   height: auto;
-   color: white;
-
+  .home-section {
+    background-color: transparent;
+    /*display: -webkit-flex; /*(Make all content on the center)*/ 
+    flex-direction: column;
+    text-align:center ; 
+    width :100%;
+    min-height: 100%;
+    padding:0px; 
+    align-content: center;
+    justify-content: center;
+    position: relative;
+   
   }
-
-  .home h4{
-    padding: 0px; 
+  .home-header, .home-header h1  { 
     text-align: center;
-    width: auto;
-    color: whitesmoke;
-    font-weight: lighter;
+    color: white;
+    padding: 0px; 
+    font-size: 20px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+
   }
+
+
+  .home{
+   position: absolute;
+   text-align: centre;
+   background-image: url("../Images/headerbackground.jpg") ;
+   /*Set The Img Position*/
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   
+  }
+  .home h4{
+    padding: 0px;
+    /*text-align: center;*/
+    color: white;
+    text-align: centre;
+   }
+  .discord{
+    position: relative;
+    text-align: centre;
+  }
+
+
  
 
   /*
@@ -109,10 +138,11 @@
     padding: 10px;
     width: auto;
     position: relative;
+    align-items: center;
   }
 
   .about h1{
-    text-align: center;
+    text-align: centre;
     color: white;
   }
   .about p{
@@ -120,6 +150,7 @@
     padding:0px; 
     width: auto;
     font-weight: lighter;
+    text-align: left;
   }
 
   .about a{
