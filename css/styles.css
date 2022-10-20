@@ -111,6 +111,16 @@
    position: relative;
    
   }
+  .home a{
+    padding: 0px;
+    /*text-align: center;*/
+    color: #777 ;
+    text-align: centre;
+  }
+
+  .home a:hover{ 
+  color: #8777;
+  }
   .home h4{
     padding: 0px;
     /*text-align: center;*/
