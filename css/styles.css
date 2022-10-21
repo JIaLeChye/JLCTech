@@ -155,6 +155,10 @@
     text-align: centre;
     color: white;
   }
+  .about h3{
+    text-align: center;
+    color: #469746;
+  }
   .about p{
     color: white; 
     padding:0px; 
