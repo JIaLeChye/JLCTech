@@ -38,3 +38,23 @@ body{
   .menu span a:hover{
     color: blue;
   }
+
+  .footer {
+    background-color: #777;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    position: relative;
+    width: 100%;
+  }
+
+  /*Responsive layout -- makes the menu and content (inside the section) sit on top of each other instead of next to each other */ 
+
+  @media (max-width:600px ) 
+  {
+    section{
+      -webkit-flex-direction: column; 
+      flex-direction:column;
+      height:100%;
+    }
+  }
