@@ -19,17 +19,18 @@ body{
 
  /* Container for flexboxes  */
  .section {
-    background-color: transparent;
-    /*display: -webkit-flex; /*(Make all content on the center)*/ 
-    flex-direction: column;
-    text-align: center;
-    width: 100%;
-    min-width: 100%;
-    min-height: 100vh;
-    padding: 0px;
-    align-items: center;
-    align-content: center;
-
+  min-width: fit-content;
+  min-height: 100vh;
+  padding:0px; 
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  background-color: transparent;
+  display: -webkit-flex; /*(Make all content on the center)*/ 
+  flex-direction: column;
+  text-align: center;
 
   }
 /*For Menu*/
@@ -42,10 +43,7 @@ body{
    
   }
   
-  .p{
-    font-size: large;
-    color: red;
-  }
+
   .menu span a {
     display: block;
     padding: 8px;
@@ -58,6 +56,31 @@ body{
   .menu span a:hover{
     color: blue;
   }
+
+  .ElcEng h1{
+    text-align: center;
+  }
+  .ElcEng p{
+    color:red;
+    font-size: 40px;
+  }
+
+  .Softdev h1{
+    text-align: center;
+  }
+  .Softdev p{
+    color:red;
+    font-size: 40px;
+  }
+
+  .Progming h1{
+    text-align: center;
+  }
+  .Progming p{
+    color:red;
+    font-size: 40px;
+  }
+
 
   .footer {
     background-color: #777;
