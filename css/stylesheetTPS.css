@@ -12,9 +12,13 @@ body{
  /* Container for flexboxes  */
  .section {
     background-color: transparent;
-    display: -webkit-flex; /*(Make all content on the center)*/ 
+    /*display: -webkit-flex; /*(Make all content on the center)*/ 
     flex-direction: column;
     text-align: center;
+    width: 100%;
+    min-width: 100%;
+    padding: 0px;
+
   }
 /*For Menu*/
 .menu {
@@ -44,10 +48,12 @@ body{
     padding: 5px;
     text-align: center;
     color: white;
-    position: fibxed;
-    width: 100%;
-    left: 5px;
-    
+    position: fixed;
+    bottom: 5px;  
+    right: 2px;   
+    width: 100%;  
+    left: 2px;
+
   }
 
   /*Responsive layout -- makes the menu and content (inside the section) sit on top of each other instead of next to each other */ 
