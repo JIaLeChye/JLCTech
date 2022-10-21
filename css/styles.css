@@ -113,14 +113,14 @@
   .home a{
     padding: 0px;
     /*text-align: center;*/
-    color: #777 ;
+    color: white ;
     text-align: centre;
   }
 
   .home a:hover{ 
   color: #8777;
   }
-  .home h4{
+  .home h3{
     padding: 0px;
     /*text-align: center;*/
     color: white;
