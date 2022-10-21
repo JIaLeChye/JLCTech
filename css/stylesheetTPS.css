@@ -44,8 +44,10 @@ body{
     padding: 5px;
     text-align: center;
     color: white;
-    position: relative;
+    position: fibxed;
     width: 100%;
+    left: 5px;
+    
   }
 
   /*Responsive layout -- makes the menu and content (inside the section) sit on top of each other instead of next to each other */ 
