@@ -27,6 +27,7 @@
     position: relative;
   }
   .section{
+    min-width: -moz-fit-content;
     min-width: fit-content;
     min-height: 100vh;
     padding:0px; 
@@ -73,66 +74,78 @@
     position: relative;
   }*/
   .home-section {
-    background-color: transparent;
-    /*display: -webkit-flex; /*(Make all content on the center)*/ 
+    /*background-image:url(../Images/circuit-designed-form-brain_49459-557.jpg) ;   
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat; */
     flex-direction: column;
-    text-align:center ; 
     width :100%;
     min-height: 100vh;
     padding:0px; 
     align-content: center;
-    justify-content: center;
-    position: relative;
-   
   }
-  .home-header, .home-header h1  { 
+  .home-header  { 
+    align-items: top;
     text-align: center;
     color: white;
     padding: 0px; 
     margin-block-start: 0px;
     margin-block-end: 0px;
-
   }
 
 
-  .home{
-   position: absolute;
-   text-align: centre;
-   background-image: url("../Images/headerbackground.jpg") ;
-   /*Set The Img Position*/
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   position: relative;
-   
-  }
-  .home h1{
+  .home {
+    align-items: center;
     text-align: center;
-    color: white; 
+    display:flex;
+    flex-direction: column;
   }
+  
+  .home h3{
+    padding: 0px;
+    color: white;
+    align-content: center;
+   }
+
+  .home table,tr, td{
+    border: 3px solid Red ; 
+    border-collapse: collapse;
+    padding:0px; 
+    text-align: center;
+    align-content: center;
+    position: relative ;
+    height: 200px; 
+
+  }
+  .home table {
+    height: 100%;
+    width: 100%; 
+  }
+
+  .home table alt {
+    height: 100%;
+    width: 100%; 
+  }
+
+
+ 
   .home a{
     padding: 0px;
     /*text-align: center;*/
     color: white ;
     text-align: centre;
+    font-size: 20px;
   }
-
   .home a:hover{ 
   color: #8777;
   }
-  .home h3{
-    padding: 0px;
-    /*text-align: center;*/
-    color: white;
-    text-align: centre;
-   }
-  .discord{
+  
+
+  /*.discord{
     position: relative;
     text-align: centre;
-  }
+  }*/
 
-
- 
 
   /*
   .news{
@@ -142,7 +155,7 @@
     color: white;
   }
 */
-
+/*-----About-------*/
   .about {
     padding: 10px;
     width: auto;
@@ -173,6 +186,8 @@
   .about a:hover{
     color: #8777;
   }
+
+
   /*--------Contact-------*/ 
   .contact{
     padding: 10px;
