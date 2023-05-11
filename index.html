@@ -16,7 +16,30 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
     <!--<link rel="stylesheet" href="https://kit.fontawesome.com/42833e8d26.css" crossorigin="anonymous">--> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <script src="https://kit.fontawesome.com/42833e8d26.js"></script>
+    <!--<script>
+      var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button:
+      window.onscroll = function() {
+      scrollFunction();
+      };
+
+      function scrollFunction() {
+       if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+       mybutton.style.display = "none";
+      }
+      }
+
+    // When the user clicks on the button, scroll to the top of the document:
+      function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+    </script>--> 
   <body> 
     
   <header>
@@ -42,6 +65,14 @@
         </ul>
       </menu>
 
+
+      <div class="Back_To_Top">
+      <button class="To_Top_Btn" onclick="topFunction()"  title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+      </button>
+      </div>
+
+
       <div class="home-section" id="home"> 
         <div class="home-header">
           <h1>Home</h1>
@@ -65,31 +96,6 @@
               Programming 
             </button>
           </div>
-          <!--<table>
-              <tr> 
-                <td></td>
-                <td><img src="" alt="Electronics Engineering"> </td>
-              </tr>
-
-              <tr>
-                <td> </td> 
-                <td><img src="" alt="Software Devolopement"> </td>> 
-              </tr>
-
-              <tr> 
-                <td>  </td>
-                <td> <img src="" alt="Programming"> </td>
-              </tr>
-
-          </table>--> 
-          
-          
-          
-
-        <!--<div class="discord"> 
-          <iframe src="https://discord.com/widget?id=1009805243518812271&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-        </div>-->
-
       </div>
       
       </div>
@@ -130,23 +136,7 @@
         </li>
       </ul>
     </nav>
-    <!--<div class="nav-contact"> 
-      <h1 class="sm-header">Contact</h1>
-      <div class="line"></div>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a href="mailto:jialecjl2016@outlook.com" target="_blank" class="nav-link"><i class="fab fa-facebook-f"></i></a>
-        </li> 
-        <li class="nav-item"> 
-          <a href="https://github.com/JIaLeChye" target="_blank" class="nav-link"><i class="fab fa-twitter"></i></a>
-        </li>
-        <li class="nav-item"> 
-          <a href="https://www.linkedin.com/in/jia-le-c-0a72a113a" target="_blank" class="nav-link"><i class="fab fa-linkedin-in"></i> </a>
-        </li>
-      </ul>
-    </div>--> 
-    </div>
-
+    
   <footer class="footer">
     <p>Copyright @ 2021 - 2023(<a href="#about">The JLC Team</a>)</p>
   </footer>
