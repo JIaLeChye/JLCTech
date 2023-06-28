@@ -1,6 +1,9 @@
-*{
-    box-sizing: border-box;
-
+*, 
+*::before,
+*::after{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
 }
 
 body{
@@ -82,17 +85,17 @@ body{
   }
 
 
-  .footer {
+  /* Style the footer */
+  .footer{
     background-color: #777;
     padding: 5px;
     text-align: center;
     color: white;
     position: fixed;
     bottom: 0px;  
-    /*right: 2px;*/   
+    right: 2px;   
     width: 100%;  
-    /*left: 2px;*/
-
+    left: 2px;
   }
 
   /*Responsive layout -- makes the menu and content (inside the section) sit on top of each other instead of next to each other */ 
