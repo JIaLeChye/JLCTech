@@ -460,9 +460,9 @@
     justify-content: center;
     /* margin: 10px; */
   }
-.ql a{
-  /* width:fit-content; */
-}
+/*.ql a{
+    width:fit-content; 
+}*/
   .Quick-Link-Header
   {
     color: white;
