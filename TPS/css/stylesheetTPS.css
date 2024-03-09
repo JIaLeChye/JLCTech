@@ -85,31 +85,37 @@ body{
   }
 
 /** WEBDEV **/
+.WebDev
+{
+  align-content: center;
+  text-align: center;
+}
+.WebDev h1{
+  text-align: center;
+}
+.WebApps a
+{
+  text-align: center;
+  font-size: 30px;
+}
+.WebDev p{
+  color: red;
+  font-size: 40px;
+}
+
+
 
 
 
   /*------------------- 
      Style the footer 
   ---------------------*/
-  .WebDev h1{
-    text-align: center;
-    
-  }
 
-  .WebDev p{
-    color: red;
-    font-size: 40px;
-  }
-
-  .WebDev a{
-    text-align: center;
-  }
-  
 
 
   .footer{
     background-color: #777;
-    padding: 5px;
+    padding: 1px;
     text-align: center;
     color: white;
     position: fixed;
