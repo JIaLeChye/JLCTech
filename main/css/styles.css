@@ -16,7 +16,7 @@
  
   
   /* Style the header */
-  .header {
+  header{
     padding: 0px;
     text-align: center;
     font-size: 30px;
@@ -30,10 +30,12 @@
     background-size: cover;
     position: relative;
     margin: 10rem; 
+    flex-wrap: wrap;
   }
 
   .section{
     min-width: -moz-fit-content;
+    min-width: -webkit-fill-available;
     min-width: fit-content;
     min-height: 100vh;
     padding: 0px;
@@ -76,8 +78,10 @@
     background-color: transparent;
     /*align-items: center;*/
     /*text-align:center;*/
+    -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     width: 100%;
+    position: fixed; 
   }
   .menu li {
     float: center;
@@ -183,11 +187,11 @@
     align-items: center;
     row-gap: 10px;
     column-gap: 10px;
-    height: 100px; 
-    /*flex-wrap:wrap;*/ 
-    display:inline-flex;
-
+    height: 100px;
+    flex-wrap:wrap;
   }
+
+ 
 
   .glow-on-hover {
     width: 220px;
@@ -257,51 +261,6 @@
     border:5px; 
   }
 
-  /*----For Table----*/
-/*.home table,tr, td{
-    border: 3px solid Red ; 
-    border-collapse: collapse;
-    padding:0px; 
-    text-align: center;
-    align-content: center;
-    position: relative ;
-    height: 200px; 
-
-  }
-  .home table {
-    height: 100%;
-    width: 100%; 
-  }
-
-  .home table alt {
-    height: 100%;
-    width: 100%; 
-  }
-  .home a{
-    padding: 0px;
-    color: white ;
-    text-align: centre;
-    font-size: 20px;
-  }
-  .home a:hover{ 
-  color: #8777;
-  }*/
-  
-
-  /*.discord{
-    position: relative;
-    text-align: centre;
-  }*/
-
-
-  /*
-  .news{
-    padding: 10px;
-    text-align: center;
-    width: 100%;
-    color: white;
-  }
-*/
 /*-----About-------*/
   .about-header {
     padding: 10px;
@@ -417,36 +376,6 @@
   }
 
 
-  /*.nav-contact{
-
-    padding: 10px;
-    width: auto;
-    display: block;
-   
-  }
-
-  .nav-contact h1{
-    text-align: center;
-    color: white;
-  }
-
-  .nav-contact li{ 
-    padding: 5px; 
-    text-align: left; 
-    color: yellow;
-    display:list-item ;
-    
-  }
-
-  .nav-contact a{
-    color: greenyellow;
-
-  }
-
-  .nav-contact a:hover{ 
-   color: blueviolet;
-  }*/
-
   /* Quick-Link-Header*/ 
   .ql ul li  {
     text-align: center;
@@ -455,14 +384,13 @@
     align-items: center;
     /* flex-wrap: nowrap; */
     max-width: -moz-fit-content;
+    max-width: fit-content;
     /* max-width: fit-content; */
     list-style: none;
     justify-content: center;
     /* margin: 10px; */
   }
-/*.ql a{
-    width:fit-content; 
-}*/
+
   .Quick-Link-Header
   {
     color: white;
