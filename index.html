@@ -151,9 +151,17 @@
         <li> 
           <a href="https://polikk.mypolycc.edu.my/">
             <div class="ql-images"> 
-              <img src="https://polikk.mypolycc.edu.my/images/headers/LOGO_baru_Poli_msia_KKinabalu.png" alt="Link Website Polikk" width="30%" max-width="fit-content">
+              <img src="https://polikk.mypolycc.edu.my/images/headers/LOGO_baru_Poli_msia_KKinabalu.png" alt="Link Website Polikk" style="background-color: white; width:15">
             </div>
-            Politeknik Kota Kinabalu (Polikk@PKK)  
+            Politeknik Kota Kinabalu (PoliKK@PKK)  
+          </a>
+        </li>
+        <li>
+          <a href="https://www.utem.edu.my/en/">
+            <div class="ql-images">
+              <img src="https://portal.utem.edu.my/iutem/Contents/images/utemlogo.png" alt="UTeM Logo" width="15%">
+            </div>
+            Universiti Teknikal Malaysia Melaka (UTeM)
           </a>
         </li>
         <li> 
@@ -161,7 +169,7 @@
             <div class="ql-images"> 
               <img src="https://vetores.org/d/w3schools.svg" alt="Link to w3schools" width="30%" style="margin-top:5px ; margin-bottom: 5px;">
             </div>
-            W3schools(A Great Place to Learn Programming)
+            W3schools (A Great Place to Learn Programming)
           </a>
         </li>
         <li>
@@ -178,8 +186,11 @@
 
   <!--Footer Section -->
   <footer class="footer">
-    <p>Copyright @ 2021 - 2024(<a href="#about">The JLC Team</a>)</p>
+    <p>Copyright @ 2021 - <span id="currentYear"></span> (<a href="#about">The JLC Team</a>)</p>
+    <script>
+      document.getElementById("currentYear").innerHTML= new Date().getFullYear();
+    </script>
   </footer>
-
+  
   </body>
 </html>

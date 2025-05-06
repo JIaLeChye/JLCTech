@@ -12,6 +12,10 @@ body{
     height: 100%;
 }
 
+.backtohome {
+  width:100%; 
+  display: flex;
+}
 .header h1{
   text-align: center;
   color: black;
